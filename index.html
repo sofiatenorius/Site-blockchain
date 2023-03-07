@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GamaCripto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@900&family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  <script src="components/footer.js" type="text/javascript" defer></script>
+  <script src="components/header.js" type="text/javascript" defer></script>
+</head>
+<body>
+  
+  <div>
+    <header-component></header-components>
+  </div>
+      
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <picture>
+          <source media="(max-width: 520px)" srcset="img/firstImg_celular.jpg">
+          <img src="img/firstImg.jpeg" class="d-block w-100" alt="">
+        </picture>      
+        <div class="firstImg-text">
+          <h1>GAMA<br>ON</h1>
+          <h4>A Gama está de olho nas tendências e viemos te convidar para se atualizar também!</h4>
+          <p>Venha aprender mais sobre o universo BlockChain com nossa convidada <span
+              style="font-weight:bold;">Marianne Salomão</span> na live que vai rolar no dia <span
+              style="font-weight:bold;">27/07/2022</span> as 19:30hrs. Você vem?</p>
+          <button type="button" id="button-pop" class="botaoInscrever"><a href="#">Se inscreva aqui!</a></button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/secondImg.jpeg" class="d-block w-100" alt="...">
+        <div class="secondImg-text">
+          <h1>VOCE SABIA?</h1>
+          <p>A <span style="font-weight:bold;">Gama Cripto</span> pode ajudar seu time, organização ou projeto, com
+            soluções blockchain, ou até outras soluções descentralizadas.</p>
+          <button type="button" class="botaoInscrever"><a href="pag_contato.html">Saiba Mais</a></button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <video playsinline loop muted autoplay>
+          <source src="img/blockchain_01.mp4" type="video/mp4">
+        </video>
+        <div class="carousel-caption">
+          <h1>BLOCKCHAIN</h1>
+          <p>Descubra com a <span style="font-weight:bold;">Gama Cripto</span> o que é e como essa tecnologia </br>
+            vem fazendo diferença no mercado.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section class="container-cards">
+    <div class="cards">
+      <h2>BITCOIN</h2>
+      <img src="img/BTC.png" alt="Foto da moeda bitcoin">
+      <p>Bitcoin é uma moeda digital, descentralizada que não necessita de terceiros para funcionar. Isso significa que
+        você não depende de bancos, grandes corporações ou governos para movimentar seu dinheiro.</p>
+      <button class="button-card"><a class="btn btn-dark" href="https://bitcoin.org/pt_BR/" target="_blank">Saiba mais!</a></button>
+    </div>
+    <div class="cards">
+      <h2>ETHEREUM</h2>
+      <img src="img/ETHEREUM.png" alt="Foto da moeda ethereum">
+      <p>Ethereum é uma plataforma que permite a programação de aplicativos descentralizados, contratos inteligentes e
+        transações da criptomoeda Ether e vários tokens. Tudo isso baseado na tecnologia da Blockchain</p>
+      <button class="button-card"><a class="btn btn-dark" href="https://ethereum.org/pt/" target="_blank">Saiba mais!</a></button>
+    </div>
+    <div class="cards">
+      <h2>TETHER</h2>
+      <img src="img/TETHER.png" alt="Foto da moeda Theter">
+      <p>Tether também é uma moeda digital e é classificada como stablecoin. Ele visa ser um ativo virtual estável e
+        capaz de sofrer menos com as variações de preço do que a maioria das criptomoedas disponíveis no mercado.</p>
+      <button class="button-card"><a class="btn btn-dark" href="https://tether.to/en/" target="_blank">Saiba mais!</a></button>
+    </div>
+  </section>
+
+  <div class="coins">
+    <div class="text-center coins">
+      <h3>TOP 10 maiores Cryptomoedas</h3>
+    </div>
+    <div class="coins-table">
+      <table class="table table-dark">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Moeda</th>
+            <th scope="col">Símbolo</th>
+            <th scope="col">Preço</th>
+            <th scope="col">Porcentagem</th>
+          </tr>
+        </thead>
+        <tbody id="body-table">
+          <tr>
+            <th scope="row">1</th>
+            <td><img src="img/BTC.png" alt=""> Bitcoin</td>
+            <td class="coin-simbol">BTCBRL</td>
+            <td class="BTCBRL-price td"></td>
+            <td class="BTCBRL-percent td"></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td><img src="img/ETHEREUM.png" alt=""> Ethereum</td>
+            <td class="coin-simbol">ETHBRL</td>
+            <td class="ETHBRL-price td"></td>
+            <td class="ETHBRL-percent td"></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td><img src="img/TETHER.png" alt=""> Tether</td>
+            <td class="coin-simbol">USDTBRL</td>
+            <td class="USDTBRL-price td"></td>
+            <td class="USDTBRL-percent td"></td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td><img src="img/USD.png" alt=""> USD Coin</td>
+            <td class="coin-simbol">USDCUSDT</td>
+            <td class="USDCUSDT-price td"></td>
+            <td class="USDCUSDT-percent td"></td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td><img src="img/BNB.png" alt=""> BNB</td>
+            <td class="coin-simbol">BNBBRL</td>
+            <td class="BNBBRL-price td"></td>
+            <td class="BNBBRL-percent td"></td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td><img src="img/BUSD.png" alt=""> Binance USD</td>
+            <td class="coin-simbol">BUSDBRL</td>
+            <td class="BUSDBRL-price td"></td>
+            <td class="BUSDBRL-percent td"></td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td><img src="img/XRP.png" alt=""> XRP</td>
+            <td class="coin-simbol">XRPBRL</td>
+            <td class="XRPBRL-price td"></td>
+            <td class="XRPBRL-percent td"></td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td><img src="img/ADA.png" alt=""> Cardano</td>
+            <td class="coin-simbol">ADABRL</td>
+            <td class="ADABRL-price td"></td>
+            <td class="ADABRL-percent td"></td>
+          </tr>
+          <tr>
+            <th scope="row">9</th>
+            <td><img src="img/SOL.png" alt=""> Solana</td>
+            <td class="coin-simbol">SOLBRL</td>
+            <td class="SOLBRL-price td"></td>
+            <td class="SOLBRL-percent td"></td>
+          </tr>
+          <tr>
+            <th scope="row">10</th>
+            <td><img src="img/DOGE.png" alt=""> Dogecoin</td>
+            <td class="coin-simbol">DOGEBRL</td>
+            <td class="DOGEBRL-price td"></td>
+            <td class="DOGEBRL-percent td"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <section class="map">
+    <div class="text-center Mapa">
+      <h3>ONDE NOS ENCONTRAR</h3>
+      <h5>R. Zilda, 879 - Casa Verde Alta, São Paulo - SP, 02545-001</h5>
+    </div>
+    <div class="embed-responsive embed-responsive-1by1">
+      <iframe class="embed-responsive-item"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.7802989529066!2d-46.662879070859084!3d-23.492143769097602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef78f95cc7235%3A0x61152827ec7485fa!2sR.%20Zilda%2C%20879%20-%20Casa%20Verde%20Alta%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002545-001!5e0!3m2!1spt-BR!2sbr!4v1656547313040!5m2!1spt-BR!2sbr"
+        width="100%" height="300" style="border:0;" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <div class="pop">
+    <div class="popup-wrapper">
+      <div class="popup">
+        <div class="popup-close">
+          x
+        </div>
+        <div class="popup-content">
+          <h2>Faça sua inscrição! </h2>
+          <label for="text"> Nome Completo</label>
+          <input type="textl" placeholder="Digite seu nome completo">
+          <label for="e-mail"> E-mail</label>
+          <input type="e-mail" placeholder="Digite seu melhor e-mail">
+          <button class="popup-submit">Finalizar Inscrição</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <footer-component></footer-component>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="js/popup.js"></script>
+  <script src="js/cotacao.js"></script>
+</body>
+</html>

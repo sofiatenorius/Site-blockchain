@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+
+}
+
+#about, #offer{
+  padding: 100px 0;
+  background-color: #222;
+  color: white;
+  display: flex;
+
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-left-col{
+  flex-basis: 50%;
+}
+
+.about-left-col img{
+  width: 80%;
+}
+
+.about-right-col{
+  flex-basis: 50%;
+  text-align: right;
+}
+
+.about-text{
+  max-width: 700px;
+  margin-right: 100px;
+  display: inline-block;
+}
+
+.about-text h1{
+  text-transform: uppercase;
+  padding: 7px;
+}
+
+.line{
+  line-height: 18px;
+}
+
+.line-1{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #42d21e;
+  display: inline-block;
+}
+
+.line-3{
+  width: 280px;
+  height: 2px;
+  background: #42d21e;
+  display: inline-block;
+}
+
+#teams{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #222;
+  color: rgb(255, 255, 255);
+}
+
+#teams h1{
+  text-align: center;
+  padding: 5%;
+}
+
+.teams-row{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.teams-col{
+  flex-basis: 25%;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 550px;
+}
+
+.teams-col p {
+  padding: 15px;
+}
+
+.teams-col img{
+  width: 200px;
+}
+
+.teams-col h4{
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.teams-btn{
+  margin: 80px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.teams-btn .line{
+  text-align: right;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.common-btn{
+  padding: 15px 20px;
+  background: purple;
+  color: white;
+  outline: none;
+  border: 2px solid #fffefe;
+  border-radius: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.video-section{
+  background-color: #222;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.video{
+  padding: 15px;
+}
+
+@media screen and (max-width: 999px){
+  #header{
+      background: none;
+  }
+
+  .container{
+      margin-right: 50px;
+      margin-left: 50px;
+  }
+
+  .logo{
+      margin-top: 27px;
+      width: 70px;
+  }
+
+  .header-text{
+      margin-top: 100px;
+  }
+
+  .header-text h1{
+      font-size: 25px;
+  }
+
+  #menuBtn{
+      width: 40px;
+      right: 50px;
+  }
+
+  .common-btn{
+      padding: 10px 16px;
+  }
+  
+  .about-left-col, .about-right-col{
+      flex-basis: 100%;
+  }
+
+  .about-text{
+      margin: 50px 50px 0;
+  }
+
+  .about-text h2{
+      font-size: 18px;
+  }
+
+  .teams-col{
+      flex-basis: 100%;
+      margin-bottom: 40px;
+  }
+
+  .teams-btn .line{
+      display: none;
+  }
+
+  .course-left-col{
+      flex-basis: 100%;
+  }
+
+  .course-right-col{
+      flex-basis: 100%;
+      margin-top: 70px;
+  }
+  
+  .course-text{
+      max-width: 100%;
+  }
+
+  .contact-left-col, .contact-right-col{
+      flex-basis: 100%;
+  }
+
+  .contact-left-col{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+
+  .contact-right-col{
+      margin-top: 50px;
+  }
+
+  .copyright-text, .footer-logo{
+      flex-basis: 100%;
+  }
+
+  .link-title{
+      flex-basis: 50%;
+      margin-bottom: 30px;
+  }
+
+  .video{
+    max-width: 78%;
+    max-height: 40%;
+  }
+
+  .line{
+    width: 70vw;
+  }
+
+  .teams-col{
+    flex-basis: 25%;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 550px;
+  }
+}
